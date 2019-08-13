@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',
+        OpenSans,
+        sans-serif;
+    font-size: 18px;
+}
+
+h1,
+h2 {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+
+
+.button {
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.icons {
+    height: 100px;
+}
+
+.title {
+    color: rgb(83, 88, 98);
+}
+
+.text {
+    color: rgb(135, 145, 156);
+}
+
+.textBox {
+    width: 50%;
+    color: white;
+}
+
+.textBox p {
+    margin: 15px auto;
+    font-size: 1.25rem;
+    font-weight: 200;
+}
+
+.imageBox {
+    width: 50%;
+}
+
+.hero {
+    height: 600px;
+    background-image: url('../images/city-scape.svg');
+    background-size: cover;
+}
+
+.install {
+    height: 600px;
+    background-image: url('../images/forklift.svg')
+}
+
+.install .textBox {
+    width: 40%;
+}
+
+.install a {
+    background-color: rgb(49, 68, 88);
+}
+
+.signup .button {
+    text-align: center;
+    margin: auto;
+    padding: 10px 100px;
+    background-color: rgb(203, 56, 55);
+}
+
+.install .textBox {
+    width: 245px;
+    margin-top: 8rem;
+}
+
+.signup {
+    background-color: rgb(39, 53, 71);
+    height: 600px;
+}
+
+.signup .wrapper {
+    padding-top: 8em;
+}
+
+
+
+.hero a {
+    background-color: rgb(240, 146, 51);
+}
+
+.search-bar {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 55px;
+    background-color: white;
+    display: flex;
+}
+
+.search {
+    flex: 6;
+}
+
+.search input[type="text"] {
+    border-style: none;
+    height: 40px;
+    padding-top: 6px;
+    padding-left: 10px;
+    width: calc(100% - 10px);
+    font: 400 11px;
+}
+
+.links {
+    flex: 1;
+    float: right;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgba(0, 0, 0, .7)
+}
+
+.links a:hover {
+    color: dimgray;
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 15px;
+    height: 40px;
+}
+
+.logo {
+    flex: 1;
+}
+
+nav a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.top-left {
+    float: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
